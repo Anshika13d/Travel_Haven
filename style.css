@@ -1,0 +1,231 @@
+@import url("https://fonts.googleapis.com/css?family=Signika+Negative:300,400&display=swap");
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  position: relative;
+  letter-spacing: 0.04em;
+}
+
+.background-image {
+    background-image: url('images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.navbar-transparent {
+    background-color: rgba(255, 255, 255, 0);
+}
+
+.navbar-nav .nav-link {
+    color: white; /* Font color */
+    margin-right: 15px; /* Add space between items */
+    font-size: 25px;
+}
+
+.navbar-nav .nav-link:hover {
+    color: rgb(194, 137, 228); /* Font color */
+}
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Font color */
+    
+}
+
+.centered-text .tag{
+    font-size: 30px;
+}
+
+.centered-text .logo{
+    font-size: 80px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.474); 
+}
+
+.trend{
+    text-align: center;
+    color: rgb(63, 18, 104);
+}
+
+.btn-col{
+    background-color: rgb(81, 30, 129);
+    color: white;
+}
+
+.btn-col:hover{
+    background-color: rgb(133, 93, 171);
+    color: white;
+}
+
+.carousel-item img {
+    height: 600px; /* Adjust the height as needed */
+    z-index: 2;
+}
+
+.carousel-item {
+    position: relative;
+}
+
+.carousel-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the opacity (last value) to control the dimming effect */
+    z-index: 1;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 3; 
+}
+
+.signup{
+    color: white;
+    font-size: 60px;
+}
+
+.signupnow{
+    color: white;
+    font-size: 35px;
+}
+
+.btn-size{
+    height: 60px;
+    width: 200px;
+    font-size: 23px;
+}
+
+.custom-image {
+    width: 450px; 
+    height: 250px; 
+}
+
+.count{
+    font-size: 35px;
+}
+
+.btn-more{
+    width: 900px;
+    height: 60px;
+    background-color: rgb(81, 30, 129);
+    color: white;
+    font-size: 30px;
+}
+
+.btn-more:hover{
+    background-color: rgb(145, 100, 186);
+}
+
+.at{
+    color: orangered;
+}
+
+.cuisine {
+    background-color: rgb(202, 193, 210);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: rgb(53, 16, 88);
+  }
+
+.text-body-secondary-link {
+    text-decoration: none;
+}
+  
+.text-body-secondary:hover {
+    color: #070707 !important; 
+    text-decoration: none; 
+    cursor: pointer; 
+}
+
+.plan{
+    text-align: center;
+    font-weight: bolder;
+    color: rgb(44, 10, 76);
+}
+
+.form-background {
+    background-image: url('images/formbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px;
+    height: 500px;
+    
+}
+
+.background-overlay {
+    background-color: rgba(0, 0, 0, 0.423); 
+}
+
+.form-container {
+    background-color: rgba(255, 255, 255, 0.8); 
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background-color:rgb(113, 95, 131);
+    color: white;
+    text-align: center;
+}
+
+.footer-icon {
+    width: 24px;
+    margin-right: 10px; 
+}
+
+.italic-quote {
+    font-style: italic;
+}
+
+.btn-plan{
+    height: 55px;
+    width: 350px;
+    background-color:  rgb(81, 30, 129);
+    color: white;
+    font-size: 30px;
+
+}
+
+.btn-plan:hover{
+   
+    background-color:  rgb(145, 100, 186);
+    color: white;
+}
+
+.form-background2 {
+    background-image: url('images/formbg.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 40px;
+    height: 900px;
+}
+
+
+
+  .card {
+    max-width: 350px;
+    margin: 0 auto;
+  }
